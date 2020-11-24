@@ -1,0 +1,16 @@
+# tips
+
+Tips, kind of like notes, is used to record useful tips, my blind spot of knowledge at that time and so on (in continuously update). 
+
+- [BabelJS](https://github.com/zixiCat/tips/blob/master/src/BabelJS.md)
+- [Git](https://github.com/zixiCat/tips/blob/master/src/Git.md)
+- [NativeJS](https://github.com/zixiCat/tips/blob/master/src/NativeJS.md)
+- [NodeJS](https://github.com/zixiCat/tips/blob/master/src/NodeJS.md)
+- [ReactJS](https://github.com/zixiCat/tips/blob/master/src/ReactJS.md)
+- [TypeScript](https://github.com/zixiCat/tips/blob/master/src/TypeScript.md)
+- [VueJS](https://github.com/zixiCat/tips/blob/master/src/VueJS.md)
+- [WebPackJS](https://github.com/zixiCat/tips/blob/master/src/WebPackJS.md)
+
+## Issues tracker
+
+If you find a Issue, please report it [here on Github](https://github.com/zixiCat/tips/issues)!

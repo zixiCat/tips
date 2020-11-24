@@ -1,0 +1,13 @@
+{
+  "name": "tips",
+  "version": "0.1.0",
+  "homepage": "https://github.com/zixiCat/tips",
+  "description": "Tips is used to record useful tips or my blind spot, the weak ability of knowledge and so on",
+  "keywords": [
+    "tips"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zixiCat/tips"
+  }
+}
