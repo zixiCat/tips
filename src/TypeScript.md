@@ -6,3 +6,5 @@ type UnionToIntersection<U> = (U extends any ? (k: U)=>void : never) extends ((k
 ```typescript
 type TFnPropertyNames<T> = { [K in keyof T]: T[K] extends Function ? K : never }[keyof T]
 ``` 
+- If you'd like to set the type of class anyway, you can try this: `type Class<T = any> = new (...args: any[]) => T;` 
+

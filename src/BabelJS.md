@@ -5,4 +5,4 @@ So when you create `.babelrc` file in the root, maybe it wouldn’t work unless 
     - If true, the plugins of `.babelrc` will replace the babel-loader’s plugins, but the presets will be merged even if false.
     - If false, the plugins of `.babelrc` will not work.
     
-- The `exit` property of babel types, its params include the code that compiled by presets and plugins
+- The `exit` property of babel types, its params include the code that compiled by presets and plugins.
