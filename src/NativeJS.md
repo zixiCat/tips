@@ -1,2 +1,2 @@
-#### Array.prototype.map()
 - `[{a:1, b:2, c:3}] => [{b:2, c:3}]` by `arr.map({a, ...rest} => rest)` 
+- if you want every page has the same title when use `window.print()`, you can try to put 'title' to the `<thead>`.
