@@ -9,7 +9,7 @@
   ```bash
   git tag -l | xargs -n 1 git push --delete origin
   ```
-  It will delete remtoe tags every 2 seconds for one, really trash! The following command line is used to delete all local tags
+  It will delete remtoe tags every 2 seconds for one, really trash! The following command line is used to delete all local tags...[ref](https://stackoverflow.com/questions/19542301/delete-all-tags-from-a-git-repository)
   ```bash
   git tag | xargs git tag -d
   ```
