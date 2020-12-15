@@ -1,1 +1,1 @@
-- use `speed-measure-webpack-plugin` to measure building speed
+- Use `speed-measure-webpack-plugin` to measure building speed
