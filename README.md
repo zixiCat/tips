@@ -10,6 +10,7 @@ Tips, kind of like notes, is used to record useful tips, my blind spot of knowle
 - [TypeScript](https://github.com/zixiCat/tips/blob/master/src/TypeScript.md)
 - [VueJS](https://github.com/zixiCat/tips/blob/master/src/VueJS.md)
 - [WebPackJS](https://github.com/zixiCat/tips/blob/master/src/WebPackJS.md)
+- [Other](lhttps://github.com/zixiCat/tips/blob/master/src/Other.md)
 
 ## Issues tracker
 
