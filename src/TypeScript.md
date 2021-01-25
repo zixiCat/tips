@@ -18,3 +18,10 @@
         Partial<Record<Exclude<Keys, K>, undefined>>;
     }[Keys];
   ```
+- 6 ways to narrow types in TypeScript...[ref](https://www.carlrippon.com/6-ways-to-narrow-types-in-typescript/)
+  - using a conditional value check to remove `null` and `undefined` from a type
+  - using `typeof` function to narrow the type to primitive types
+  - using `instanceof` function to narrow the type to class types
+  - using `in` function to determine if the type is in the object
+  - using type predicates to narrow to some complex type you want
+  - using `assert` function to narrow to some complex type if you wan throw some errors
