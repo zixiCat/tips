@@ -25,3 +25,14 @@
   - using `in` function to determine if the type is in the object
   - using type predicates to narrow to some complex type you want
   - using `assert` function to narrow to some complex type if you wan throw some errors
+
+- an excellent way to simplify the type `TUnitTransform`, it's related to several key points...[ref](https://stackoverflow.com/questions/65850619/is-there-an-function-to-simplify-the-following-union-type-tunittransform)
+  ```typescript
+  type TUnitTransform = ((...rest: [number]) => [number]) &
+    ((...rest: [number, number]) => [number, number]) &
+    ((...rest: [number, number, number]) => [number, number, number]) &
+    ......
+
+  type TUnitTransform = 
+    <T extends [number, ...number[]]>(...rest: [...T]) => { [K in keyof T]: number; }
+  ```
