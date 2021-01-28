@@ -1,0 +1,1 @@
+- Use `@font-face` in css file, and you can add custom font file
