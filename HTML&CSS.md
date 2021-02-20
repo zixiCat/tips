@@ -1,1 +1,2 @@
 - Use `@font-face` in css file, and you can add custom font file
+- The `:root` CSS pseudo-class can help you to declare global variables of CSS
