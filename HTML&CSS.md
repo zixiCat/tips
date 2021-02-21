@@ -1,2 +1,4 @@
 - Use `@font-face` in css file, and you can add custom font file
 - The `:root` CSS pseudo-class can help you to declare global variables of CSS
+- The CSS function `attr()` would be useful sometimes
+- Using `pointer-events: none` in CSS can prevent default event of some element.
