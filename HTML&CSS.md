@@ -2,3 +2,4 @@
 - The `:root` CSS pseudo-class can help you to declare global variables of CSS
 - The CSS function `attr()` would be useful sometimes
 - Using `pointer-events: none` in CSS can prevent default event of some element.
+- To make the pages that contains `<iframe>` to be adaptive, there is a good way, see lxs's answer...(ref)[https://stackoverflow.com/questions/166160/how-can-i-scale-the-content-of-an-iframe]
