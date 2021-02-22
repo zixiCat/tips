@@ -12,3 +12,4 @@
   ```bash
   git tag | xargs git tag -d
   ```
+- Use `git reset HEAD@{1}`, and you can recover your code from git-reset-hard, see more...[ref](https://stackoverflow.com/questions/5788037/recover-from-git-reset-hard)
