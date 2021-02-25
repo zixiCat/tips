@@ -6,3 +6,4 @@ So when you create `.babelrc` file in the root, maybe it wouldn’t work unless 
     - If false, the plugins of `.babelrc` will not work.
     
 - The `exit` property of babel types, its params include the code that compiled by presets and plugins.
+- When using `customize-cra`, to disable babel-loader cache, you can refer to this url...[ref](https://github.com/mixail-novikov/customize-cra-disable-babel-cache)
