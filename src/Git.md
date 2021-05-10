@@ -14,3 +14,4 @@
   ```
 - Use `git reset HEAD@{1}`, and you can recover your code from git-reset-hard, see more...[ref](https://stackoverflow.com/questions/5788037/recover-from-git-reset-hard)
 - To authenticate with GitHub, use this one: `https://[USERNAME]:[TOKEN]@[GIT_ENTERPRISE_DOMAIN]/[ORGANIZATION]/[REPO].git`...[ref](https://stackoverflow.com/questions/18935539/authenticate-with-github-using-a-token?answertab=votes#tab-top)
+- The similarities and differences between monorepo and polyrepo...[ref](https://github.com/joelparkerhenderson/monorepo_vs_polyrepo)
