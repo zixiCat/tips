@@ -4,7 +4,7 @@
   ```bash
   git ls-remote --tags --refs origin | cut -f2 | xargs git push origin --delete
   ```
-  Then your all remote tags will be remove in one go, but when you use this command line:
+  Then your all remote tags will be removed in one go, but when you use this command line:
   ```bash
   git tag -l | xargs -n 1 git push --delete origin
   ```
