@@ -1,1 +1,7 @@
-to be continued
+- Some packages to beautify style of terminal.
+  - [cli-spinners](https://github.com/sindresorhus/cli-spinners)
+  - [progress](https://github.com/visionmedia/node-progress#readme)
+  - [gauge](https://github.com/npm/gauge)
+  - [listr2](https://github.com/cenk1cenk2/listr2)
+  - [cli-progress](https://github.com/npkgz/cli-progress)
+  - [ora](https://github.com/sindresorhus/ora)
