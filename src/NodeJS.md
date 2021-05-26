@@ -6,3 +6,4 @@
   - [listr2](https://github.com/cenk1cenk2/listr2)
   - [cli-progress](https://github.com/npkgz/cli-progress)
   - [ora](https://github.com/sindresorhus/ora)
+- We can use `process.stderr.write('\x1B[?25h')` to show terminal cursor or use `process.stderr.write('\x1B[?25l')` to hide terminal cursor, that's really useful when it come to beautifying style.
