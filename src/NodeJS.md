@@ -4,6 +4,7 @@
   - [progress](https://github.com/visionmedia/node-progress)
   - [multi-progress](https://github.com/pitaj/multi-progress)
   - [gauge](https://github.com/npm/gauge)
+  - [boxen](https://github.com/sindresorhus/boxen)
   - [listr2](https://github.com/cenk1cenk2/listr2)
   - [cli-progress](https://github.com/npkgz/cli-progress)
   - [ora](https://github.com/sindresorhus/ora)
