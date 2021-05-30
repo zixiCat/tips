@@ -1,0 +1,3 @@
+#!/bin/bash
+# the code have to be finished in one line
+HOOKSPATH=$(git config --local --get core.hookspath);if [[ $HOOKSPATH != '.githooks/' ]]; then  git config --local core.hookspath ".githooks/"; fi

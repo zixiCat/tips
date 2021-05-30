@@ -6,8 +6,16 @@
   "keywords": [
     "tips"
   ],
+  "scripts": {
+    "prepare": "bash .githooks/config",
+    "commit": "node .githooks/customize.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/zixiCat/tips"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "inquirer": "^8.1.0"
   }
 }
