@@ -9,3 +9,8 @@
   - [cli-progress](https://github.com/npkgz/cli-progress)
   - [ora](https://github.com/sindresorhus/ora)
 - We can use `process.stderr.write('\x1B[?25h')` to show terminal cursor or use `process.stderr.write('\x1B[?25l')` to hide terminal cursor, that's really useful when it come to beautifying style.
+- The `package.json` have some really useful fields that we might use in making npm package, for example, the `bin` field would help you to execute some command via npx, and the `prepare`, `preinstall` in [`script`](https://docs.npmjs.com/cli/v7/using-npm/scripts) filed would help you to run a script when package is installed...see [docs](https://docs.npmjs.com/cli/v7/configuring-npm/package-json) for more details.
+- Sometimes you should use the `encoding` option that it would help you to print what you want, e.g. `child_process.execSync("npm info grunt version", { encoding: 'UTF-8'})`.
+- In order to interact with terminal, there are some APIs and modules we can use, e.g. `process.openStdin`, `readline`...[ref1](https://stackoverflow.com/questions/5947742/how-to-change-the-output-color-of-echo-in-linux)...[ref2](https://github.com/philipszdavido/cli-select-opts/blob/master/select.js)
+- Change color of console.log without package, we can use `console.log('\x1b[32m%s\x1b[0m', 'green')` or `console.log('\x1b[31m', 'red' ,'\x1b[0m')`...[ref](https://stackoverflow.com/questions/9781218/how-to-change-node-jss-console-font-color)
+- We can use `git stash` to run bash `scripts` filed in `package.json` via using `bash fileName`...[ref](https://awsm.page/nodejs/run-shell-scripts-using-npm-script/)
