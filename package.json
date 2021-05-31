@@ -7,7 +7,7 @@
     "tips"
   ],
   "scripts": {
-    "prepare": "bash .githooks/config",
+    "prepare": "node .githooks/config.js",
     "commit": "node .githooks/customize.js",
     "release": "standard-version"
   },
