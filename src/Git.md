@@ -15,3 +15,7 @@
 - Use `git reset HEAD@{1}`, and you can recover your code from git-reset-hard, see more...[ref](https://stackoverflow.com/questions/5788037/recover-from-git-reset-hard)
 - To authenticate with GitHub, use this one: `https://[USERNAME]:[TOKEN]@[GIT_ENTERPRISE_DOMAIN]/[ORGANIZATION]/[REPO].git`...[ref](https://stackoverflow.com/questions/18935539/authenticate-with-github-using-a-token?answertab=votes#tab-top)
 - The similarities and differences between monorepo and polyrepo...[ref](https://github.com/joelparkerhenderson/monorepo_vs_polyrepo)
+- Use `git config --local --get core.hookspath`, and then terminal will show the value.
+- `git commit -m "subject" -m "body" -m "footer"`
+- We can get the committed message via `$(cat $1)` in `commit-msg`, `prepare-commit-msg` of git hooks, but the message isn't accessible to `pre-commit` hook
+- To make your committed message awesome, there are some packages to help you like `husky`, `commitizen`. You can also customize hooks files or config the hooksPath to directory you want...[ref](https://backlog.com/blog/git-commit-messages-bold-daring/)
