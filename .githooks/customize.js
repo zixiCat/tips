@@ -37,6 +37,8 @@ inquirer
         'base',
         'BabelJS',
         'Bash',
+        'CICD',
+        'Docker',
         'Git',
         'HTML&CSS',
         'NativeJS',
