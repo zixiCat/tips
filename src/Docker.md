@@ -1,0 +1,1 @@
+- Seems like you should run two containers, one is jenkins, the other is sub-docker. The sub-docker would help you to run docker in jenkins in docker, and it would help to avoid the error "docker not found"...[ref](https://www.jenkins.io/doc/book/installing/docker/)
