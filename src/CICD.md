@@ -1,0 +1,2 @@
+- The official plugin **gitlab-plugin** can help you to send the pipeline result in jenkins to gitlab...[ref](https://github.com/jenkinsci/gitlab-plugin)
+- Be aware of the **General** option in repository setting, where you can found some setting about pipeline from **Merge requests**
