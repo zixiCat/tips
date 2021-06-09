@@ -45,6 +45,7 @@ inquirer
         'NodeJS',
         'Other',
         'ReactJS',
+        'README',
         'TypeScript',
         'VueJS',
         'WebPackJS'

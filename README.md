@@ -3,6 +3,9 @@
 Tips, kind of like notes, is used to record useful tips, my blind spot of knowledge at that time and so on (in continuously update). 
 
 - [BabelJS](https://github.com/zixiCat/tips/blob/master/src/BabelJS.md)
+- [Bash](https://github.com/zixiCat/tips/blob/master/src/Bash.md)
+- [CICD](https://github.com/zixiCat/tips/blob/master/src/CICD.md)
+- [Docker](https://github.com/zixiCat/tips/blob/master/src/Docker.md)
 - [Git](https://github.com/zixiCat/tips/blob/master/src/Git.md)
 - [HTML&CSS](https://github.com/zixiCat/tips/blob/master/src/HTML&CSS.md)
 - [NativeJS](https://github.com/zixiCat/tips/blob/master/src/NativeJS.md)
