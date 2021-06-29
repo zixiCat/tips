@@ -1,3 +1,4 @@
 - August 6, 1991: Sir Tim Berners-Lee at CERN launched [the first website](http://info.cern.ch/hypertext/WWW/TheProject.html)
 - SHA--Secure Hash Algorithm--安全散列演算法
 - When we using 'ping google.com' with ssr running, it would time out, but using vpn can work sometimes. that's as the socks proxy of ssr is based on session layer or transport layer, while vpn is based on network layer, which is the same as `ping operating`...[ref](https://my.oschina.net/u/4330033/blog/4532164)
+- [cloc](https://github.com/AlDanial/cloc) can help you count all the lines of code.
