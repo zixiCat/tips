@@ -5,3 +5,7 @@
   - Use `const` for all of your references, avoid using `var` or `let`, because this can ensure that you can’t reassign your references, which can lead to bugs and difficult to comprehend code...[ref](https://github.com/airbnb/javascript#references--prefer-const)
   - Do not use `Object.property` directly, such as `hasOwnProperty`. Because these methods may be shadowed by properties on the object in question...[ref](https://github.com/airbnb/javascript#objects--prototype-builtins)
 - [optional chaining ?](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining), [nullish coalescing operator ??](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator), [logical nullish assignment ??=](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_nullish_assignment)
+- Please make good use of the second param of `replace` function, in which you can obtain the result of `$1`, `$2`, e.g.
+  ```javascript
+  'a_bc1'replace(/_([a-z])([a-z])/g, (x, $1, $2) => return $2)
+  ```
