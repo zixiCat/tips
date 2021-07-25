@@ -7,7 +7,7 @@ Tips, kind of like notes, is used to record useful tips, my blind spot of knowle
 - [CICD](https://github.com/zixiCat/tips/blob/master/src/All.md#CICD)
 - [Docker](https://github.com/zixiCat/tips/blob/master/src/All.md#Docker)
 - [Git](https://github.com/zixiCat/tips/blob/master/src/All.md#Git)
-- [HTML&CSS](https://github.com/zixiCat/tips/blob/master/src/All.md#HTML&CSS)
+- [HTML&CSS](https://github.com/zixiCat/tips/blob/master/src/All.md#HTMLCSS)
 - [NativeJS](https://github.com/zixiCat/tips/blob/master/src/All.md#NativeJS)
 - [NodeJS](https://github.com/zixiCat/tips/blob/master/src/All.md#NodeJS)
 - [ReactJS](https://github.com/zixiCat/tips/blob/master/src/All.md#ReactJS)
