@@ -2,6 +2,8 @@
 
 Tips, kind of like notes, is used to record useful tips, my blind spot of knowledge at that time and so on (in continuously update). 
 
+Click [All](https://github.com/zixiCat/tips/blob/master/src/All.md) to see all content of the links below
+
 - [BabelJS](https://github.com/zixiCat/tips/blob/master/src/BabelJS.md)
 - [Bash](https://github.com/zixiCat/tips/blob/master/src/Bash.md)
 - [CICD](https://github.com/zixiCat/tips/blob/master/src/CICD.md)
