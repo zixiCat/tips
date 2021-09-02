@@ -17,4 +17,3 @@
 - Use `--eval`/`-e`, and then we can run script only in command line...[ref](https://nodejs.org/docs/latest-v15.x/api/cli.html#cli_e_eval_script)
 - When the `main` field in `package.json` is set,  use `node .` or `require`  will involve the field as default.
 - Please pay attention to the usage of `process.cwd()` and `__dirname`, especially when using `path`, `npx`.
-- ```
