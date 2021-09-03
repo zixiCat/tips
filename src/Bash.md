@@ -1,4 +1,4 @@
-- As the code snippet below, We would get the all val from `console.log`
+- As the code snippet below, We would get all the val from `console.log`
   ```bash
   #!/bin/bash
   VAL=$(node app.js)
