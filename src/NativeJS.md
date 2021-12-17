@@ -1,4 +1,4 @@
-- `[{a:1, b:2, c:3}] => [{b:2, c:3}]` by `arr.map({a, ...rest} => rest)` 
+- `[{a:1, b:2, c:3}] => [{b:2, c:3}]` by `arr.map({a, ...rest} => rest)`
 - If you want every page has the same title when use `window.print()`, you can try to put 'title' to the `<thead>`.
 - You can use the @page CSS at-rule to modify the setting of print.
 - About JavaScript Style, you can click [this](https://github.com/airbnb/javascript) for more details, followings are some tips I think it's useful for me.
@@ -10,3 +10,5 @@
   'a_bc1'.replace(/_([a-z])([a-z])/g, (x, $1, $2) => return $2)
   ```
 - You can find a lot of parser tools or transform tools for AST in this site [astexplorer.net](https://astexplorer.net/)
+- Browserslist Helps you save time include polyfills manually...[ref](https://stackoverflow.com/questions/55510405/what-is-the-significance-of-browserslist-in-package-json-created-by-create-react)
+- When `console.time('lable')` and `console.timeEnd('lable')` use the same label, the console will print this label in front of time

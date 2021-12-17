@@ -20,4 +20,5 @@
 - We can get the committed message via `$(cat $1)` in `commit-msg`, `prepare-commit-msg` of git hooks, but the message isn't accessible to `pre-commit` hook
 - To make your committed message awesome, there are some packages to help you like `husky`, `commitizen`. You can also customize hooks files or config the hooksPath to directory you want...[ref](https://backlog.com/blog/git-commit-messages-bold-daring/)
 - `git commit -a/--all` will tell the command to automatically stage files that have been modified and deleted, but new files you have not told Git about are not affected...[ref](https://git-scm.com/docs/git-commit/en)
-- use `git push origin HEAD` to push current branch...[ref](https://stackoverflow.com/questions/14031970/git-push-current-branch-shortcut)
+- Use `git push origin HEAD` to push current branch...[ref](https://stackoverflow.com/questions/14031970/git-push-current-branch-shortcut)
+- `.gitkeep`, the file can be called anything, it just help you to track the empty directories...[ref](https://stackoverflow.com/questions/7229885/what-are-the-differences-between-gitignore-and-gitkeep)
