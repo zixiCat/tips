@@ -22,3 +22,4 @@
 - `git commit -a/--all` will tell the command to automatically stage files that have been modified and deleted, but new files you have not told Git about are not affected...[ref](https://git-scm.com/docs/git-commit/en)
 - Use `git push origin HEAD` to push current branch...[ref](https://stackoverflow.com/questions/14031970/git-push-current-branch-shortcut)
 - `.gitkeep`, the file can be called anything, it just help you to track the empty directories...[ref](https://stackoverflow.com/questions/7229885/what-are-the-differences-between-gitignore-and-gitkeep)
+- Don't forget to input `git add .` before using `git stash`.
