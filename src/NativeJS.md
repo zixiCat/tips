@@ -12,3 +12,4 @@
 - You can find a lot of parser tools or transform tools for AST in this site [astexplorer.net](https://astexplorer.net/)
 - Browserslist Helps you save time include polyfills manually...[ref](https://stackoverflow.com/questions/55510405/what-is-the-significance-of-browserslist-in-package-json-created-by-create-react)
 - When `console.time('lable')` and `console.timeEnd('lable')` use the same label, the console will print this label in front of time
+- `RegExp.prototype.toJSON = RegExp.prototype.toString` will Stringify regular expression by `JSON.stringify`
