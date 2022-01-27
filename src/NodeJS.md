@@ -15,5 +15,6 @@
 - Change color of console.log without package, we can use `console.log('\x1b[32m%s\x1b[0m', 'green')` or `console.log('\x1b[31m', 'red' ,'\x1b[0m')`...[ref](https://stackoverflow.com/questions/9781218/how-to-change-node-jss-console-font-color)
 - We can use `git stash` to run bash `scripts` filed in `package.json` via using `bash fileName`...[ref](https://awsm.page/nodejs/run-shell-scripts-using-npm-script/)
 - Use `--eval`/`-e`, and then we can run script only in command line...[ref](https://nodejs.org/docs/latest-v15.x/api/cli.html#cli_e_eval_script)
-- When the `main` field in `package.json` is set,  use `node .` or `require`  will involve the field as default.
+- When the `main` field in `package.json` is set, use `node .` or `require` will involve the field as default.
 - Please pay attention to the usage of `process.cwd()` and `__dirname`, especially when using `path`, `npx`.
+- Use `--trace-warnings` option and the output of `child_process` will show more detail.
