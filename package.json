@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "prepare": "node .githooks/config.js",
-    "commit": "node .githooks/customize.js",
+    "commit": "node --trace-warnings .githooks/customize.js",
     "release": "standard-version"
   },
   "repository": {
