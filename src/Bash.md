@@ -10,3 +10,4 @@
   NC='\033[0m' # No Color
   echo -e "This is ${RED}red${NC}"
   ```
+- If you're using Windows, try `git reset --hard (git branch -r|fzf).trim()`
