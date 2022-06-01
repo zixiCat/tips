@@ -18,3 +18,6 @@
 - When the `main` field in `package.json` is set, use `node .` or `require` will involve the field as default.
 - Please pay attention to the usage of `process.cwd()` and `__dirname`, especially when using `path`, `npx`.
 - Use `--trace-warnings` option and the output of `child_process` will show more detail.
+- Those packages can help you to run node scripts in parallel
+  - [npm-run-all](https://github.com/mysticatea/npm-run-all)
+  - [concurrently](https://github.com/open-cli-tools/concurrently)
