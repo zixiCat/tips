@@ -5,6 +5,8 @@ const RED = '\x1b[31m';
 const GREEN = '\x1b[32m';
 const NC = '\x1b[0m'; // No Color
 
+inquirer.registerPrompt('search-list', require('inquirer-search-list'));
+
 const argv = process.argv.filter(
   (i) => i[0] === '-' && i !== '-m' && i !== '--message'
 );
@@ -12,7 +14,7 @@ const argv = process.argv.filter(
 inquirer
   .prompt([
     {
-      type: 'list',
+      type: 'search-list',
       name: 'type',
       loop: false,
       message: 'The type you want to select',
@@ -20,7 +22,6 @@ inquirer
         'docs',
         'feat',
         'fix',
-        new inquirer.Separator(),
         'chore',
         'style',
         'refactor',
@@ -29,7 +30,7 @@ inquirer
       ],
     },
     {
-      type: 'list',
+      type: 'search-list',
       name: 'scope',
       loop: false,
       message: 'The scope you want to select',
