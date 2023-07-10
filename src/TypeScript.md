@@ -26,7 +26,7 @@
   - using type predicates to narrow to some complex type you want
   - using `assert` function to narrow to some complex type if you wan throw some errors
 
-- an excellent way to simplify the type `TUnitTransform`, it's related to several key points...[ref](https://stackoverflow.com/questions/65850619/is-there-an-function-to-simplify-the-following-union-type-tunittransform)
+- An excellent way to simplify the type `TUnitTransform`, it's related to several key points...[ref](https://stackoverflow.com/questions/65850619/is-there-an-function-to-simplify-the-following-union-type-tunittransform)
   ```typescript
   type TUnitTransform = ((...rest: [number]) => [number]) &
     ((...rest: [number, number]) => [number, number]) &
@@ -36,3 +36,5 @@
   type TUnitTransform = 
     <T extends [number, ...number[]]>(...rest: [...T]) => { [K in keyof T]: number; }
   ```
+
+- The diffs among typescript properties of class...[ref](https://gist.github.com/zixiCat/edd02052a1bfa8ad14268b26b6c9d086)
