@@ -23,3 +23,5 @@
 - Use `git push origin HEAD` to push current branch...[ref](https://stackoverflow.com/questions/14031970/git-push-current-branch-shortcut)
 - `.gitkeep`, the file can be called anything, it just help you to track the empty directories...[ref](https://stackoverflow.com/questions/7229885/what-are-the-differences-between-gitignore-and-gitkeep)
 - `git stash -u`, the `-u/--include-untracked` will let all untracked files stashed.
+
+- `MSYS_NO_PATHCONV=1` in `C:\Program Files\Git\etc\bash.bashrc` can help you avoid command line conversion.
