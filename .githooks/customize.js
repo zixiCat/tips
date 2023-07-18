@@ -1,20 +1,17 @@
 const inquirer = require('inquirer');
-const { exec } = require('child_process');
-const sh = exec;
-const RED = '\x1b[31m';
-const GREEN = '\x1b[32m';
-const NC = '\x1b[0m'; // No Color
+const inquirerSearchList = require('inquirer-search-list');
+const { spawn } = require('child_process');
 
-inquirer.registerPrompt('search-list', require('inquirer-search-list'));
+const argv = process.argv.filter((i) => i[0] === '-' && i !== '-m' && i !== '--message');
 
-const argv = process.argv.filter(
-  (i) => i[0] === '-' && i !== '-m' && i !== '--message'
-);
+const typeName = 'search-list';
+
+inquirer.registerPrompt(typeName, inquirerSearchList);
 
 inquirer
   .prompt([
     {
-      type: 'search-list',
+      type: typeName,
       name: 'type',
       loop: false,
       message: 'The type you want to select',
@@ -30,7 +27,7 @@ inquirer
       ],
     },
     {
-      type: 'search-list',
+      type: typeName,
       name: 'scope',
       loop: false,
       message: 'The scope you want to select',
@@ -63,15 +60,13 @@ inquirer
   ])
   .then((answers) => {
     const msg = `${answers.type}(${answers.scope}): ${answers.message.trim()}`;
-    const command = `git commit ${argv.join(' ')} -m "${msg}" -n`;
-    sh(command, (error, stdout, stderr) => {
-      if (error !== null) {
-        console.error(`${error}`);
-        console.log(
-          `Please try to run ${RED}${command}${NC} to see more detail`
-        );
-      } else {
-        console.log(`${GREEN}Succeeded!${NC}`);
-      }
+    let command = `commit -m`;
+    if (argv.length) {
+      command = `commit ${argv.join(' ')} -m`;
+    }
+    spawn('git', [...command.split(' '), msg, '-n'], {
+      cwd: process.cwd(),
+      detached: false,
+      stdio: 'inherit',
     });
   });

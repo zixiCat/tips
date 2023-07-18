@@ -36,5 +36,5 @@
   type TUnitTransform = 
     <T extends [number, ...number[]]>(...rest: [...T]) => { [K in keyof T]: number; }
   ```
-
 - The diffs among typescript properties of class...[ref](https://gist.github.com/zixiCat/edd02052a1bfa8ad14268b26b6c9d086)
+- Extend global type[ref](https://stackoverflow.com/questions/47130406/extending-global-types-e-g-window-inside-a-typescript-module)
