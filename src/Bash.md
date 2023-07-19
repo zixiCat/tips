@@ -11,3 +11,4 @@
   echo -e "This is ${RED}red${NC}"
   ```
 - If you're using Windows, try `git reset --hard (git branch -r|fzf).trim()`
+- Set command alias in window...[ref](https://stackoverflow.com/questions/37104273/how-to-set-aliases-in-git-bash-for-windows)
