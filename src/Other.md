@@ -3,4 +3,4 @@
 - When we using 'ping google.com' with ssr running, it would time out, but using vpn can work sometimes. that's as the socks proxy of ssr is based on session layer or transport layer, while vpn is based on network layer, which is the same as `ping operating`...[ref](https://my.oschina.net/u/4330033/blog/4532164)
 - [cloc](https://github.com/AlDanial/cloc) can help you count all the lines of code.
 - What is rpc...[ref](https://juejin.cn/post/6844903874562785294)
-- We can debug in vscode by using the config...[ref](https://gist.github.com/zixiCat/73b9343d09ef1a24d2d874923b375e0d)
+- We can debug in vscode by using the config, ...[ref1](https://gist.github.com/zixiCat/73b9343d09ef1a24d2d874923b375e0d)...[ref2](https://stackoverflow.com/questions/45592581/cannot-debug-in-vs-code-by-attaching-to-chrome)
