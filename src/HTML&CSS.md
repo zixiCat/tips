@@ -1,6 +1,7 @@
-- Use `@font-face` in css file, and you can add custom font file
-- The `:root` CSS pseudo-class can help you to declare global variables of CSS
-- The CSS function `attr()` would be useful sometimes
+- Use `@font-face` in css file, and you can add custom font file.
+- The `:root` CSS pseudo-class can help you to declare global variables of CSS.
+- The CSS function `attr()` would be useful sometimes.
 - Using `pointer-events: none` in CSS can prevent default event of some element.
 - To make the pages that contains `<iframe>` to be adaptive, there is a good way, see lxs's answer...[ref](https://stackoverflow.com/questions/166160/how-can-i-scale-the-content-of-an-iframe)
 - `loading` attribute can achieve lazy loading in `<img>` or `<iframe>`...[ref](https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading)
+- `disablepictureinpicture=true` and `controlslist="nodownload noremoteplayback noplaybackrate"` can help you to hide some props for video tag.
