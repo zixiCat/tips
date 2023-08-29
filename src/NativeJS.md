@@ -17,3 +17,4 @@
   ```js
   const sleep (ms) => new Promise((resolve) => setTimeout(resolve, ms));
   ```
+- Check whether a string contains Japanese/Chinese characters...[ref](https://stackoverflow.com/questions/43418812/check-whether-a-string-contains-japanese-chinese-characters)
