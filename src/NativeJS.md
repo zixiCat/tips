@@ -7,9 +7,13 @@
 - [optional chaining ?](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining), [nullish coalescing operator ??](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator), [logical nullish assignment ??=](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_nullish_assignment)
 - Please make good use of the second param of `replace` function, in which you can obtain the result of `$1`, `$2`, e.g.
   ```javascript
-  'a_bc1'.replace(/_([a-z])([a-z])/g, (x, $1, $2) => $2)
+  "a_bc1".replace(/_([a-z])([a-z])/g, (x, $1, $2) => $2);
   ```
 - You can find a lot of parser tools or transform tools for AST in this site [astexplorer.net](https://astexplorer.net/)
 - Browserslist Helps you save time include polyfills manually...[ref](https://stackoverflow.com/questions/55510405/what-is-the-significance-of-browserslist-in-package-json-created-by-create-react)
 - When `console.time('lable')` and `console.timeEnd('lable')` use the same label, the console will print this label in front of time
 - `RegExp.prototype.toJSON = RegExp.prototype.toString` will Stringify regular expression by `JSON.stringify`
+- Sleep function
+  ```js
+  const sleep (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+  ```
