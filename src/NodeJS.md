@@ -21,3 +21,4 @@
 - Those packages can help you to run node scripts in parallel
   - [npm-run-all](https://github.com/mysticatea/npm-run-all)
   - [concurrently](https://github.com/open-cli-tools/concurrently)
+- We can use `nut.js` to simulate the operation of keyboard/mouse...[ref](https://github.com/nut-tree/nut.js)
