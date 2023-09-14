@@ -5,3 +5,4 @@
 - To make the pages that contains `<iframe>` to be adaptive, there is a good way, see lxs's answer...[ref](https://stackoverflow.com/questions/166160/how-can-i-scale-the-content-of-an-iframe)
 - `loading` attribute can achieve lazy loading in `<img>` or `<iframe>`...[ref](https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading)
 - `disablepictureinpicture=true` and `controlslist="nodownload noremoteplayback noplaybackrate"` can help you to hide some props for video tag.
+- Use `flex-grow` to fill the remaining width/height in a flex container...ref[https://stackoverflow.com/questions/37745051/fill-the-remaining-height-or-width-in-a-flex-container]
