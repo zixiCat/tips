@@ -19,3 +19,8 @@
   ```
 - Check whether a string contains Japanese/Chinese characters...[ref](https://stackoverflow.com/questions/43418812/check-whether-a-string-contains-japanese-chinese-characters)
 - Detect cookie change...[ref](https://stackoverflow.com/questions/14344319/can-i-be-notified-of-cookie-changes-in-client-side-javascript?answertab=modifieddesc#tab-top)
+- Format json
+  ```js
+  JSON.stringify(JSON.parse(json), null, 2);
+  ```
+
