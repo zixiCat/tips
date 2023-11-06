@@ -23,4 +23,4 @@
   ```js
   JSON.stringify(JSON.parse(json), null, 2);
   ```
-
+- Do not use Async/Await with forEach loop...[ref](https://stackoverflow.com/questions/37576685/using-async-await-with-a-foreach-loop?rq=1)
