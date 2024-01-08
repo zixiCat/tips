@@ -4,3 +4,6 @@
 - [cloc](https://github.com/AlDanial/cloc) can help you count all the lines of code.
 - What is rpc...[ref](https://juejin.cn/post/6844903874562785294)
 - We can debug in vscode by using the config, ...[ref1](https://gist.github.com/zixiCat/73b9343d09ef1a24d2d874923b375e0d)...[ref2](https://stackoverflow.com/questions/45592581/cannot-debug-in-vs-code-by-attaching-to-chrome)
+- When the IP port is occupied, run PowerShell as administrator, then follow these steps
+  - run `netstat -aon|findstr "8080"`, 8080 means the occupied port
+  - run `taskkill /pid 6828 /f`, 6828 means the process id
