@@ -21,5 +21,3 @@ Click [All](https://github.com/zixiCat/tips/blob/master/src/All.md) to see all c
 ## Issues tracker
 
 If you find a Issue, please report it [here on Github](https://github.com/zixiCat/tips/issues)!
-
-fasdtest rqwfadstasdf 
