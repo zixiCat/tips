@@ -7,8 +7,6 @@
     "tips"
   ],
   "scripts": {
-    "prepare": "node .githooks/config.js",
-    "cm": "node --trace-warnings .githooks/customize.js",
     "release": "standard-version"
   },
   "repository": {
@@ -17,8 +15,6 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "inquirer": "^8.1.0",
-    "inquirer-search-list": "^1.2.6",
     "standard-version": "^9.3.0"
   }
 }
